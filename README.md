@@ -20,7 +20,7 @@ Se debe crear en el mismo momento en el que inicia el repositorio. `git init`
 *  `**`  Directorios recursivos  `**/temp/` (ignora carpetas 'temp' en cualquier nivel) 
 *  `/`  Anclaje o directorio 
 
-### para ignorar un archivo txt 
+## para ignorar un archivo txt 
 
 si deseo ignorar el archivo ignorado.txt solamente de la carpeta principal pondria
 `/ignorado.txt` en el `.gitignore`
