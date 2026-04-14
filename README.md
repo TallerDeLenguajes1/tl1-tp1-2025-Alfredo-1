@@ -51,3 +51,11 @@ Errores de sintaxis faltaban `;` en la linea 17 del codigo y en la linea 23.
 En el `scanf` no estaba especificando en que direccion se debe guardar el valor ingresado.
 En la llamada a la funcion `duplicar_numero(&valor1)` que recibe una direccion, le faltaba el `&` para enviar la direccion de variable al puntero.
 La operacion dentro de la funcion `duplicar_numero(int *numero)` es de la forma `*numero = *numero * 2;`
+
+## 4.g
+
+* El resultado del punto 2 y 3, es por que esta mostrando la misma direccion de la variable llamda num. 
+* La puedo mostrar desde el puntero por que es la direccion de memoria que el puntero esta apuntando.
+* En el punto 4 obtengo la direccion de memoria del puntero.
+* No es igual al anterior. 
+* Es una direccion de memoria distinta.
